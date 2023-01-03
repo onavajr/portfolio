@@ -1,4 +1,4 @@
-module.exports.index = (request, response)=>{
+module.exports.index = (request, response) => {
     response.json({
         message: "Hello World"
     });
