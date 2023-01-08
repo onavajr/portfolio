@@ -10,6 +10,9 @@ const PersonForm= () => {
     return (
         <div>
             <h2>Message from the backend: {message} test 2</h2>
+            <h2>Message from the backend: {message} test 2</h2>
+
+            
         </div>
     )
 }
