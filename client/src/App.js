@@ -1,3 +1,5 @@
+import React from 'react';
+import PersonForm from './components/PersonForm';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,8 +20,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className='App'>
+      <PersonForm/>
+    </div>
     </div>
   );
 }
+
 
 export default App;
