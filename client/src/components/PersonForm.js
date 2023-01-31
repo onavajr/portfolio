@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-const PersonForm= () => {
+const PersonForm = () => {
     const [ message, setMessage ] = useState("Loading...")
     useEffect(()=>{
         axios.get("http://localhost:8000/api")
@@ -11,7 +11,6 @@ const PersonForm= () => {
         <div>
             <h2>Message from the backend: {message} test 2</h2>
             <h2>Message from the backend: {message} test 2</h2>
-
             
         </div>
     )

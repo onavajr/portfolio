@@ -2,27 +2,19 @@ import React from 'react';
 import PersonForm from './components/PersonForm';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import MainContent from './components/MainContent';
+import Projects from './views/Projects';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <div className='App'>
+      <h1>Welcome to my Portfolio</h1>
+      <Navbar/>
+      <MainContent/>
       <PersonForm/>
-    </div>
+      <Projects/>
+
     </div>
   );
 }
