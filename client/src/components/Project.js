@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import Projects from "../views/Projects";
 
 const Project = (props) => {
     const [likes, setLikes] = useState(0);
